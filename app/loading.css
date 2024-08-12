@@ -1,0 +1,20 @@
+.mainloading{
+background: linear-gradient(-45deg, #000000, #000000,#000000,#000000, #000000, #FFFFFF, #000000, #000000, #000000, #000000, #000000);
+background-size: 200% 100%;
+animation: GradientBackground 10s ease infinite;
+}
+
+@keyframes GradientBackground {
+0% {
+background-position: 0% 50%;
+}
+
+50% {
+background-position: 100% 50%;
+}
+
+100% {
+background-position: 0% 50%;
+}
+};
+      
